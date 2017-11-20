@@ -1,0 +1,98 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "CFE1F40E-0C21-43E9-AC39-407186E5EF3A",
+          "name" : "calculate_average_button",
+          "action" : "show_average_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate"
+        },
+        "frame" : "{{204, 134}, {80, 33}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "average_label",
+          "corner_radius" : 0,
+          "border_width" : 0,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "23C794C0-07A9-463C-9B4D-B0859A57D915"
+        },
+        "frame" : "{{87, 175}, {320, 41}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "class" : "TextView",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "flex" : "WHRTB",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "text" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "corner_radius" : 0,
+          "name" : "average_textview",
+          "border_width" : 3,
+          "uuid" : "FA3A6F58-67A5-4DFD-81E2-FC8A487892FE",
+          "spellchecking_type" : "default",
+          "editable" : false
+        },
+        "frame" : "{{49, 81}, {761, 45}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Press the button to calculate the average of these 10 numbers.",
+          "font_name" : "<System>",
+          "name" : "title_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1D130576-D915-46FA-8E8D-E2B435DE8E40"
+        },
+        "frame" : "{{6, 31}, {517, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
